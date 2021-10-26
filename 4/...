@@ -1,0 +1,22 @@
+#include <iostream.h>
+#include <math.h>
+using namespace std;
+
+int main()
+ {  
+    int n;
+    int i,i1=1,i2=1, in;
+    cout << "n=";
+    cin >> n;
+    cout << "1-e chislo = 1" << "\n";
+     for (int k = 0; k < n; k++);
+     { i = i1 + i2;
+       i1 = i2;
+       i2 = i;
+       cout<<k+2<<"-chislo = " << i <<"\n";
+	in:=(in= i n– 1+ i n– 2, n> 2)
+     }
+ 
+    return 0;
+ 
+}
